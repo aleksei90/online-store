@@ -101,7 +101,8 @@ final class Versions
   'symfony/dom-crawler' => 'v3.4.3@09bd97b844b3151fab82f2fdd62db9c464b3910a',
   'symfony/dotenv' => 'v3.4.3@66265f80c0f585cd6aec3fbdfc4ffdf7a0d75992',
   'symfony/maker-bundle' => 'v1.0.2@bf97703ddb68c6b37bd6bab5f5ebd5c7542ca1ef',
-  'symfony/website-skeleton' => 'v3.4.4@',
+  'symfony/web-server-bundle' => 'v3.4.3@44a6b2deb1c58b2dfd3592139db9091d7cfce8ed',
+  '__root__' => 'dev-master@697d5e2c975d447b5690bc8c821baa9b330b4347',
 );
 
     private function __construct()

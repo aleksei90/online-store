@@ -7,13 +7,6 @@
 # Email spool folder
 /app/spool/*
 
-# Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
 
 # Parameters
 /app/config/parameters.yml
@@ -21,7 +14,6 @@
 
 # Managed by Composer
 /app/bootstrap.php.cache
-/var/bootstrap.php.cache
 /bin/*
 !bin/console
 !bin/symfony_requirements
@@ -47,6 +39,8 @@
 # Embedded web-server pid file
 /.web-server-pid
 
-
-.env/
+var/*
 .idea/*
+###> symfony/web-server-bundle ###
+.web-server-pid
+###< symfony/web-server-bundle ###

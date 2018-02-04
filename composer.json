@@ -30,7 +30,8 @@
         "symfony/dotenv": "^3.4",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^3.4",
-        "symfony/profiler-pack": "*"
+        "symfony/profiler-pack": "*",
+        "symfony/web-server-bundle": "^3.4"
     },
     "config": {
         "preferred-install": {
@@ -73,6 +74,6 @@
             "id": "",
             "allow-contrib": false
         },
-        "symfony.id": "01C4YC5339NH28K3KTYS1H2WD8"
+        "symfony.id": "01C4YDW0DAG9VWDPPMZ192EEXX"
     }
 }
