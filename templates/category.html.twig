@@ -1,0 +1,101 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    <div class="col-left sidebar">
+    <!--Start Magic Category Block-->
+    <div class="magicat-container">
+        <div class="block">
+            <div class="block-title cat_heading"> <strong><span>{{ currentCategory.getName() }}</span></strong> </div>
+            {% if childCategory is not empty %}
+            <ul id="magicat">
+                {% for key, value in childCategory %}
+                    <li class="first level0-inactive level0 inactive">
+                        <span class="magicat-cat"><a href="/category/{{ value.getSlugName }}">
+                                <span>{{ value.getName() }}</span>
+                            </a>
+                        </span>
+                    </li>
+                {% endfor %}
+                <li class="first level0-inactive level0 inactive"><span class="magicat-cat"><a href="#"><span>Sweaters</span></a></span> </li>
+                <li class="level0-inactive level0 inactive"><span class="magicat-cat"><a href="#"><span>Knit Tops</span></a></span> </li>
+                <li class="level0-inactive level0 inactive"><span class="magicat-cat"><a href="#"><span>Shirts &amp; Blouses</span></a></span> </li>
+                <li class="level0-inactive level0 inactive"><span class="magicat-cat"><a href="#"><span>Tee Shirts</span></a></span> </li>
+                <li class="last level0-inactive level0 inactive"><span class="magicat-cat"><a href="#"><span>Outerwear &amp; Jackets</span></a></span></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+    <!--End Magic Category Block-->
+
+    <!-
+
+    -Start Layered nav-->
+    <div class="block block-layered-nav">
+        <div class="block-title"> <strong><span>Shop By</span></strong> </div>
+        <div class="block-content">
+            <div id="narrow-by-list">
+                <div>
+                    <div class="last collapse" id="filter_heading">Price</div>
+                    <div class="last odd" id="filter_content">
+                        <ul>
+                            <li> <a href="#"><span class="price">$0.00</span> - <span class="price">$1,000.00</span></a> (2) </li>
+                            <li> <a href="#"><span class="price">$2,000.00</span> - <span class="price">$3,000.00</span></a> (9) </li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        jQuery('#filter_heading').click(function() {
+                            jQuery('#filter_content').slideToggle('slow');
+                            jQuery(this).toggleClass("highlight");
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Layered nav-->
+
+    <!--Start Compare Products-->
+    <div class="block block-list block-compare">
+        <div class="block-title"><strong><span>Compare Products</span></strong> </div>
+        <div class="block-content">
+            <p class="empty">You have no items to compare.</p>
+        </div>
+    </div>
+    <!--End Compare Products-->
+
+    <!--Start Poll-->
+    <div class="block block-poll">
+        <div class="block-title"> <strong><span>Community Poll</span></strong> </div>
+
+        <form action="">
+            <div class="block-content">
+                <p class="block-subtitle">What is your favorite Magento feature?</p>
+                <ul id="poll-answers">
+                    <li class="odd">
+                        <input name="vote" class="radio poll_vote" id="vote_5" value="5" type="radio"/>
+                        <span class="label">
+                    <label for="vote_5">Layered Navigation</label>
+                    </span> </li>
+                    <li class="even">
+                        <input name="vote" class="radio poll_vote" id="vote_6" value="6" type="radio"/>
+                        <span class="label">
+                    <label for="vote_6">Price Rules</label>
+                    </span> </li>
+                    <li class="odd">
+                        <input name="vote" class="radio poll_vote" id="vote_7" value="7" type="radio"/>
+                        <span class="label">
+                    <label for="vote_7">Category Management</label>
+                    </span> </li>
+                    <li class="last even">
+                        <input name="vote" class="radio poll_vote" id="vote_8" value="8" type="radio"/>
+                        <span class="label">
+                    <label for="vote_8">Compare Products</label>
+                    </span> </li>
+                </ul>
+                <div class="actions">
+                    <button type="submit" title="Vote" class="button"><span><span>Vote</span></span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,87 @@
+<!--START OF HEADER-->
+<div class="header-container">
+    <div class="quick-access">
+        <!--Start Block Cart-->
+        <div class="block block-cart header_cart">
+            <div class="block-content_pan">
+                <div class="summary trigger-minicart">
+                    <h2 class="classy"> <span class="cart_icon"><img alt="" src="/images/shoppingbag.png" /></span><a href="#">0 item</a> </h2>
+                </div>
+                <div class="remain_cart" id="minicart">
+                    <p class="empty">You have no items in your shopping cart.</p>
+                    <div class="actions">
+                        <p class="subtotal"> <span class="label">Cart Subtotal:</span> <span class="price">$0.00</span> </p>
+                        <button type="button" title="Checkout" class="button"><span><span>Checkout</span></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Block Cart-->
+
+        <!--Start Toplinks-->
+        <ul class="links">
+            <li class="first"><a href="#" title="My Account">My Account</a></li>
+            <li><a href="#" title="Checkout" class="top-link-checkout">Checkout</a></li>
+            <li class=" last"><a href="#" title="Log In">Log In</a></li>
+        </ul>
+        <!--End Toplinks-->
+
+        <!--Start Language-->
+        <div class="form-language">
+            <div class="language" id="select-language"> <a title="English" class="flag" href="#" style="background: url(./images/flag_default.gif) no-repeat scroll 0% 0% transparent;">English</a> <a title="French" class="flag" href="#" style="background: url(./images/flag_french.gif) no-repeat scroll 0% 0% transparent;">French</a> <a title="German" class="flag" href="#" style="background: url(./images/flag_german.gif) no-repeat scroll 0% 0% transparent;">German</a> </div>
+        </div>
+        <!--End Language-->
+
+        <!--Start Currency-->
+        <div class="header_currency">
+            <div class="block block-currency">
+                <div class="block-content"> <a title="British Pound Sterling" class="currency_icon" style="background: url(./images/currency_GBP.gif) no-repeat" href="#">British Pound</a> <a title="Euro" class="currency_icon" style="background:url(./images/currency_EUR.gif) no-repeat" href="#">Euro</a> <a title="US Dollar" class="currency_icon selected" style="background: url(./images/currency_USD.gif) no-repeat" href="#">US Dollar</a> </div>
+            </div>
+        </div>
+        <!--End Currency-->
+
+    </div>
+    <!--Start Header Content-->
+    <div class="header">
+        <ul id="logo">
+            <!--Left-->
+            <li class="head-container"> <span>{</span>
+                <h2 class="classy">Free shipping over $9.99</h2>
+                <span>}</span>
+                <p class="top-welcome-msg">Default welcome msg!</p>
+            </li>
+            <!--Left-->
+            <!--Center Logo-->
+            <li class="logo-box">
+                <h1 class="logo"><strong>Santana Commerce</strong><a href="#" title="Santana Commerce" class="logo"><img src="/images/logo.png" alt="Santana Commerce" /></a></h1>
+            </li>
+            <!--Center Logo-->
+
+            <!--Right-->
+            <li class="head-container"> <span>{</span>
+                <h2 class="classy">Call us - +1 999 999 9999</h2>
+                <span>}</span>
+                <div id="search-bar">
+                    <div class="top-bar">
+                        <form id="search_mini_form" action="">
+                            <div class="form-search">
+                                <input
+                                        onfocus="if(this.value=='Search') {this.value=''};" onblur="if(this.value=='') {this.value='Search'};"
+                                        id="search" name="q" value="Search" class="input-text" type="text" />
+                                <button type="submit" title="Go" class="button">Go</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            <!--Right-->
+        </ul>
+        <!--Start of Navigation-->
+        <div class="nav-container">
+            {{ menu|raw }}
+        </div>
+        <!--End of Navigation-->
+    </div>
+    <!--End Header Content-->
+</div>
+<!--END OF HEADER-->

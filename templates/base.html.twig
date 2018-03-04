@@ -1,14 +1,70 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}{{ title }}{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-    {% block body %}{% endblock %}
-        {% block javascripts %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% include 'pageParts/head.html.twig' %}
+<body id="bg_color" class=" cms-index-index cms-home">
+<!--START OF WRAPPER-->
+<div class="wrapper">
+    <div class="page">
+        <!--START OF HEADER-->
+        {% include 'pageParts/header.html.twig' %}
+        <!--END OF HEADER-->
+        <div class="main-container col1-layout">
+        <!--START OF MAIN CONTENT-->
+        <div class="main">
+                {% block content %}{% endblock %}
+        </div>
+            <!--End of Home Content-->
+            <div style="display: none;" id="back-top"> <a href="#"><img alt="" src="/images/backtop.gif" /></a> </div>
+        </div>
+        <!--END OF MAIN CONTENT-->
 
-        {% endblock %}
-    </body>
+        <!--START OF FOOTER-->
+        {% include 'pageParts/footer.html.twig' %}
+        <!--END OF FOOTER-->
+    </div>
+    <!--Minicart JS-->
+    <script type="text/javascript">
+        var minicart_timer;
+        jQuery(".trigger-minicart").hover(function(){
+            jQuery("#minicart").slideDown();
+        });
+        jQuery("#minicart").mouseleave(function(){
+            jQuery("#minicart").slideUp();
+        });
+        jQuery("#minicart").hover(function(){
+            clearTimeout(minicart_timer);
+        });
+        jQuery(document).ready(function(){
+            jQuery('.pagebox_btn').click(function(){
+                if(parseInt(jQuery('.page_pan').css('left')) &lt; 0)
+                {
+                    jQuery('.page_pan').animate({ left: '0' }, 600, 'easeOutQuint');
+                }
+                else{
+                    jQuery('.page_pan').animate({ left: '-100px' }, 600, 'easeOutQuint');
+                }
+            });
+        });
+    </script>
+</div>
+<!--pages box-->
+<div class="page_pan" style="left:-100px;">
+    <div class="page_box">
+        <a href="http://www.magicdesignlabs.in/santana_html/index.html">Home</a>
+        <a href="http://www.magicdesignlabs.in/santana_html/category.html">Category</a>
+        <a href="http://www.magicdesignlabs.in/santana_html/product.html">Product</a>
+        <a href="http://www.magicdesignlabs.in/santana_html/checkout.html">Checkout</a>
+        <a href="http://www.magicdesignlabs.in/santana_html/contacts.html">Contact us</a>
+    </div>
+    <div class="pagebox_btn">
+        <span>P</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>
+        <span>S</span>
+    </div>
+</div>
+<!--end pages box-->
+<!--END OF WRAPPER-->
+</body>
 </html>

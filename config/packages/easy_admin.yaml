@@ -1,0 +1,52 @@
+easy_admin:
+    entities:
+        Slider:
+          class: App\Entity\Slider
+          list:
+              fields:
+                  - { property: 'id'}
+                  - { property: 'link'}
+                  - { property: 'image', type: 'image', base_path: '%app.path.slider_images%' }
+                  - { property: 'typeSlider'}
+                  - { property: 'isActive'}
+                  - { property: 'createdAt'}
+          form:
+              fields:
+                  - { property: 'link', css_class: 'large'}
+                  - { property: 'imageFile', type: 'vich_image', type_options: { required: true }}
+                  - { property: 'isActive'}
+                  - { property: 'typeSlider' , type: 'choice', type_options: { choices: {slider: 'slider', banner: 'banner'}}}
+        Product:
+          class: App\Entity\Product
+          list:
+              fields:
+                  - { property: 'id'}
+                  - { property: 'name'}
+                  - { property: 'image', type: 'image', base_path: '%app.path.product_images%' }
+                  - { property: 'description'}
+                  - { property: 'price', type: 'money', type_options: { currency: 'EUR' } }
+                  - { property: 'isNew'}
+                  - { property: 'createdAt'}
+          form:
+              fields:
+                  - { property: 'name', css_class: 'large'}
+                  - { property: 'imageFile', type: 'vich_image', type_options: { required: true }}
+                  - { property: 'description'}
+                  - { property: 'price', type: 'money', type_options: { currency: 'EUR' } }
+                  - { property: 'isNew'}
+
+        Category:
+          class: App\Entity\Category
+          list:
+              fields:
+                  - { property: 'id'}
+                  - { property: 'name'}
+                  - { property: 'parent'}
+                  - { property: 'slugName'}
+          form:
+              fields:
+                  - {type: 'group', css_class: 'col-sm-4'}
+                  - {property: 'name', css_class: 'large'}
+                  - {property: 'parent', type: 'easyadmin_autocomplete', label: 'Parent category'}
+                  - {property: 'slugName'}
+
