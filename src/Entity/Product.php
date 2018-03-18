@@ -97,6 +97,7 @@ class Product
     public function getId()
     {
         return $this->id;
+
     }
 
 

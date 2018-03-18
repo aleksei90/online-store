@@ -2,251 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7bf75a-2a9f-4487-9944-a5839a430acc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/twig_extensions.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/easy_admin.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/bundles/easyadmin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/banner.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/cloud-zoom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/light_box.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/magicat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/mix.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/skin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/accessories.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ajax_loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/amexp.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/backtop.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/banner_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_add-to.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_collapse-gm.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_collapse.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_grid.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_nav_parent.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_nav_top.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_pipe1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_pipe2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_pipe3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_rating.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_rating.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_rating.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_subtotal.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_tabs.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bkg_toolbar.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/border.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/btn_checkout.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/btn_edit.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/btn_remove.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/btn_trash.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/btn_window_close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bullets.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/calendar.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/cat_heading.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/common.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/compare.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/computer.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/controls.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/currency-GBP.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/currency_EUR.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/currency_GBP.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/currency_USD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/cvv.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/decorative_buttons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/decorative_nextbtn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/decorative_prevbtn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/discover.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/email.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/expand.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fam_book_open.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_loading.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_n.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_ne.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_nw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_s.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_se.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_sw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_shadow_w.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_title_left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_title_main.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_title_over.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancy_title_right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancybox-x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancybox-y.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/fancybox.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/flag_default.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/flag_french.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/flag_german.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/frame.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/free_shipping.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/grid-cal.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/grid.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_asc_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_availability_only.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_availability_only_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_desc_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_msg-error.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_msg-note.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_msg-success.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_notice.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_pager-next.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_pager-prev.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_print.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_rss-big.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/i_rss.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderBottomCenter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderBottomLeft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderBottomRight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderMiddleLeft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderMiddleRight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderTopCenter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderTopLeft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/ie6/borderTopRight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/linkedin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/loading_background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/magnify.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/map_popup_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/mastercard.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/maternity-clothes.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/menu-arrow-open.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/next.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/nextbutton.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/opc-ajax-loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/overlay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pager_arrow_left.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pager_arrow_right.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/paypal.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/prev.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/prevbutton.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro24.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro25.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro26.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro27.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro28.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro29.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro30.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro31.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro32.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro33.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/pro9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/promo1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/promo2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/promo3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/quickllook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/scroll_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/share_this.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/shoppingbag.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/size_chart.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/size_guide.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slider_bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slider_btn_zoom_in.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slider_btn_zoom_out.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/small_next.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/small_pre.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/spacer.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/stripe.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/thumbzoom1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/thumbzoom2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/thumbzoom3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/thumbzoom4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/thumbzoom5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/thumbzoom6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/twitter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/validation_advice_bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/visa.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/wishlist.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/women.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/youtube.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/zoom6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/banner_pack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/cloud-zoom.1.0.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-1.6.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.jcarousel.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.mix.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/light_box.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/prototype.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/products/banner_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sliders/banner_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sliders/banner_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/images/sliders/banner_4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Product.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Slider.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20180217123555.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/SliderRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pageParts/footer.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pageParts/head.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pageParts/header.html.twig" />
-      <change beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-      <change beforePath="$PROJECT_DIR$/.idea/aleksei.iml" afterPath="$PROJECT_DIR$/.idea/aleksei.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" afterPath="$PROJECT_DIR$/config/routes.yaml" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" afterPath="$PROJECT_DIR$/config/services.yaml" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Product.php" afterPath="$PROJECT_DIR$/src/Entity/Product.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -263,7 +21,7 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="450">
               <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="e#114#138#0#PHP" expanded="true" />
@@ -305,8 +63,8 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Entity/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="269">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -489,7 +247,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
+    <option name="x" value="76" />
     <option name="y" value="16" />
     <option name="width" value="1281" />
     <option name="height" value="732" />
@@ -534,6 +292,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+              <item name="pageParts" type="cbb8eebc:String" user="pageParts" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
+              <item name="var" type="cbb8eebc:String" user="var" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
+              <item name="var" type="cbb8eebc:String" user="var" />
+              <item name="cache" type="cbb8eebc:String" user="cache" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
+              <item name="var" type="cbb8eebc:String" user="var" />
+              <item name="cache" type="cbb8eebc:String" user="cache" />
+              <item name="dev" type="cbb8eebc:String" user="dev" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -545,17 +343,6 @@
               <item name="aleksei" type="b2602c69:ProjectViewProjectNode" />
               <item name="aleksei" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="aleksei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aleksei" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="aleksei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aleksei" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="aleksei" type="b2602c69:ProjectViewProjectNode" />
@@ -601,53 +388,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-              <item name="pageParts" type="cbb8eebc:String" user="pageParts" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
-              <item name="var" type="cbb8eebc:String" user="var" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
-              <item name="var" type="cbb8eebc:String" user="var" />
-              <item name="cache" type="cbb8eebc:String" user="cache" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="aleksei" type="cbb8eebc:String" user="aleksei" />
-              <item name="var" type="cbb8eebc:String" user="var" />
-              <item name="cache" type="cbb8eebc:String" user="cache" />
-              <item name="dev" type="cbb8eebc:String" user="dev" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -715,15 +462,24 @@
       <workItem from="1519929630479" duration="2401000" />
       <workItem from="1520010167672" duration="7691000" />
       <workItem from="1520161476002" duration="10879000" />
-      <workItem from="1520189394005" duration="871000" />
+      <workItem from="1520189394005" duration="1468000" />
+      <workItem from="1520277220709" duration="768000" />
+      <workItem from="1520442715121" duration="598000" />
+      <workItem from="1520601801663" duration="959000" />
+      <workItem from="1520669079214" duration="67000" />
+      <workItem from="1520684799203" duration="676000" />
+      <workItem from="1520697440541" duration="658000" />
+      <workItem from="1520757652868" duration="1655000" />
+      <workItem from="1520766263404" duration="124000" />
+      <workItem from="1520766391653" duration="866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138421000" />
+    <option name="totallyTimeSpent" value="145389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="16" width="1303" height="780" extended-state="6" />
+    <frame x="76" y="16" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21368179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -731,13 +487,13 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.940902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1023,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,13 +793,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="450">
           <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="e#114#138#0#PHP" expanded="true" />
@@ -1078,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="269">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
